@@ -1,0 +1,108 @@
+/* Start Global rules */
+
+@import url(https://fonts.googleapis.com/css?family=Epilogue:500,700);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 18px;
+    text-align: center;
+    font-family: "Epilogue", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: var(--Almost-White);
+}
+
+
+/* End Global rules */
+
+
+/* Start Variables */
+
+:root {
+    --weight1: 500;
+    --weight2: 700;
+    --Almost-White: hsl(0, 0%, 98%);
+    --Medium-Gray: hsl(0, 0%, 41%);
+    --Almost-Black: hsl(0, 0%, 8%);
+}
+
+
+/* End Variables */
+
+
+/* Start Designing */
+
+.container {
+    padding: 24px 15px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mkteam h3 {
+    color: var(--Almost-Black);
+    font-weight: var(--weight2);
+    font-size: 2.2rem;
+    margin-top: 48px;
+}
+
+.mkteam p {
+    margin-top: 32px;
+    line-height: 1.5;
+    font-size: 1rem;
+    color: var(--Medium-Gray);
+    margin-bottom: 30px;
+}
+
+.learn-more-btn {
+    padding: 20px 25px;
+    background-color: var(--Almost-Black);
+    border-radius: 20px;
+}
+
+.clients {
+    /* margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px; */
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.clients img {
+    width: auto;
+    height: auto;
+}
+
+
+/* End Designing */
+
+
+/* Start Attribution */
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+
+/* End Attribution */
